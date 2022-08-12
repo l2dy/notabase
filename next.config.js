@@ -26,14 +26,18 @@ module.exports = (phase) => {
       withBundleAnalyzer({
         experimental: { esmExternals: true },
         trailingSlash: true,
+        basePath: '/notes',
         pwa: {
           dest: 'public',
-          scope: '/app/',
+          scope: '/notes/app/',
           disable: process.env.NODE_ENV === 'development',
-          dynamicStartUrlRedirect: '/login',
+          dynamicStartUrlRedirect: '/notes/login',
           reloadOnOnline: false,
           register: false,
           skipWaiting: false,
+          fallbacks: {
+            document: '/notes/_offline',
+          },
         },
         i18n: {
           locales: ['en-US'],

@@ -31,72 +31,72 @@ class MyDocument extends Document {
           <meta name="twitter:description" content={DESCRIPTION} />
           <meta name="twitter:image" content="https://notabase.io/banner.png" />
 
-          <link rel="manifest" href="/manifest.json" />
-          <link rel="icon" href="/favicon.ico" />
+          <link rel="manifest" href="/notes/manifest.json" />
+          <link rel="icon" href="/notes/favicon.ico" />
           <link
             rel="icon"
             type="image/png"
             sizes="32x32"
-            href="/favicon-32x32.png"
+            href="/notes/favicon-32x32.png"
           />
           <link
             rel="icon"
             type="image/png"
             sizes="16x16"
-            href="/favicon-16x16.png"
+            href="/notes/favicon-16x16.png"
           />
           <link
             rel="apple-touch-icon"
             sizes="180x180"
-            href="/apple-touch-icon.png"
+            href="/notes/apple-touch-icon.png"
           />
           <link
-            href="/splash/iphone5_splash.png"
+            href="/notes/splash/iphone5_splash.png"
             media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)"
             rel="apple-touch-startup-image"
           />
           <link
-            href="/splash/iphone6_splash.png"
+            href="/notes/splash/iphone6_splash.png"
             media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)"
             rel="apple-touch-startup-image"
           />
           <link
-            href="/splash/iphoneplus_splash.png"
+            href="/notes/splash/iphoneplus_splash.png"
             media="(device-width: 621px) and (device-height: 1104px) and (-webkit-device-pixel-ratio: 3)"
             rel="apple-touch-startup-image"
           />
           <link
-            href="/splash/iphonex_splash.png"
+            href="/notes/splash/iphonex_splash.png"
             media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3)"
             rel="apple-touch-startup-image"
           />
           <link
-            href="/splash/iphonexr_splash.png"
+            href="/notes/splash/iphonexr_splash.png"
             media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2)"
             rel="apple-touch-startup-image"
           />
           <link
-            href="/splash/iphonexsmax_splash.png"
+            href="/notes/splash/iphonexsmax_splash.png"
             media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3)"
             rel="apple-touch-startup-image"
           />
           <link
-            href="/splash/ipad_splash.png"
+            href="/notes/splash/ipad_splash.png"
             media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2)"
             rel="apple-touch-startup-image"
           />
           <link
-            href="/splash/ipadpro1_splash.png"
+            href="/notes/splash/ipadpro1_splash.png"
             media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2)"
             rel="apple-touch-startup-image"
           />
           <link
-            href="/splash/ipadpro3_splash.png"
+            href="/notes/splash/ipadpro3_splash.png"
             media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2)"
             rel="apple-touch-startup-image"
           />
           <link
-            href="/splash/ipadpro2_splash.png"
+            href="/notes/splash/ipadpro2_splash.png"
             media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2)"
             rel="apple-touch-startup-image"
           />
